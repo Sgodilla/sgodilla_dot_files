@@ -14,6 +14,7 @@ local plugins = {
         "prettierd",
         "tailwindcss-language-server",
         "typescript-language-server",
+        "rust-analyzer",
       },
     },
   },
