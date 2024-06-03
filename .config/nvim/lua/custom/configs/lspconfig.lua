@@ -12,16 +12,13 @@ for _, lsp in ipairs(tsservers) do
   }
 end
 
-lspconfig.rust_analyzer.setup({
-  on_attach = on_attach,
-  capabilities = capabilities,
-  filetypes = {"rust"},
-  root_dir = util.root_pattern("Cargo.toml"),
-  settings = {
-    ['rust_analyzer'] = {
-      cargo = {
-        allFeatures = true,
-      },
+local bufnr = vim.api.nvim_get_current_buf()
+vim.g.rustaceanvim = function()
+  return {
+    -- other rustacean settings. --
+    server = {
+      on_attach = on_attach,
+      capabilities = capabilities,
     }
   }
-})
+end
