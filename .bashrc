@@ -21,7 +21,7 @@ PS1='[\u@\h \W]\$ '
 
 eval "$(starship init bash)"
 
-source /home/sgodilla/.config/broot/launcher/bash/br
+# source /home/sgodilla/.config/broot/launcher/bash/br
 
 # Created by `pipx` on 2023-11-07 16:06:37
 export PATH="$PATH:/home/sgodilla/.local/bin"
