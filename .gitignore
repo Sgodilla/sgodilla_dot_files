@@ -7,6 +7,7 @@
 .config/gh/
 .config/nextjs-nodejs/
 .config/nvim.backup/
+.config/obsidian
 .dotnet/
 .gitconfig
 .ipython/
@@ -30,3 +31,4 @@ Test
 dotfiles_backup/
 dotfiles_temp/
 snap/
+
