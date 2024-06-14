@@ -2,7 +2,7 @@ local on_attach = require("plugins.configs.lspconfig").on_attach
 local capabilities = require("plugins.configs.lspconfig").capabilities
 local lspconfig = require("lspconfig")
 
-local tsservers = {"tsserver", "tailwindcss", "eslint"}
+local tsservers = {"tsserver", "tailwindcss", "eslint", "pyright"}
 
 for _, lsp in ipairs(tsservers) do
   lspconfig[lsp].setup {
