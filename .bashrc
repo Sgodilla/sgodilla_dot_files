@@ -15,6 +15,7 @@ alias hx='helix'
 alias br='br -h'
 alias glt='git log --oneline --decorate --graph --all'
 alias glta='git log --graph --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --all'
+alias osync='rsync -av --progress --delete /home/dev/Documents/yggdrasil/ /mnt/c/Users/sgodi/Documents/vaults/Yggdrasil/'
 
 PS1='[\u@\h \W]\$ '
 . "$HOME/.cargo/env"
