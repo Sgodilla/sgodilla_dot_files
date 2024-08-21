@@ -15,7 +15,7 @@ local plugins = {
   },
   {
     'mrcjkb/rustaceanvim',
-    version = '^4', -- Recommended
+    version = '^5', -- Recommended
     lazy = false, -- This plugin is already lazy
     ft = "rust",
     dependencies = "neovim/nvim-lspconfig",
@@ -90,6 +90,8 @@ local plugins = {
         "tailwindcss-language-server",
         "typescript-language-server",
         "rust-analyzer",
+        "gopls",
+        "delve",
         "pyright",
         "mypy",
         "ruff",

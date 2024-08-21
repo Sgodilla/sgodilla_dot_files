@@ -16,6 +16,7 @@ alias br='br -h'
 alias glt='git log --oneline --decorate --graph --all'
 alias glta='git log --graph --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --all'
 alias osync='rsync -av --progress --delete /home/dev/Documents/yggdrasil/ /mnt/c/Users/sgodi/Documents/vaults/Yggdrasil/'
+alias vlime='sbcl --load ~/.local/share/nvim/site/pack/packer/start/vlime/lisp/start-vlime.lisp'
 
 PS1='[\u@\h \W]\$ '
 . "$HOME/.cargo/env"
@@ -29,3 +30,6 @@ export PATH="$PATH:/home/sgodilla/.local/bin"
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+# export OPENSSL_DIR="/usr/lib/openssl-1.1"
