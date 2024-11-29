@@ -195,6 +195,13 @@ local plugins = {
     config = function ()
       require("custom.configs.obsidian")
     end,
+  },
+  {
+    "monkoose/nvlime",
+    ft = {"lisp", "cl"},
+    dependencies = {
+      "monkoose/parsley",
+    }
   }
 }
 return plugins
